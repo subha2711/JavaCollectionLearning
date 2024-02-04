@@ -1,6 +1,7 @@
 package lesson_1;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class Learning_List_Collection {
 
@@ -50,6 +51,12 @@ public class Learning_List_Collection {
 		a.add(25);
 		
 		System.out.println(a);
+		
+		
+		a.set(3, 125);
+		System.out.println(a);
+		
+		System.out.println(Collections.max(a));
 	}
 	
 
